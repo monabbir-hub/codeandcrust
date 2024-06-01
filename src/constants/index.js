@@ -61,17 +61,17 @@ export const navLinks = [
 const services = [
   {
     title: "Web Design and Development",
-    description: "At CodeAndCrust, we specialize in creating visually stunning and highly functional websites that elevate your brand's digital presence and drive business growth. Our team of experienced web developers and designers uses the latest web development technologies and design trends to ensure your website performs flawlessly, attracting and retaining more customers. We prioritize customer satisfaction and quality, working closely with you to tailor our web design and development solutions to your unique needs, ultimately enhancing your online visibility and engagement. Every website we build is meticulously tested for performance, usability, and responsiveness across all devices, ensuring an exceptional user experience that converts visitors into loyal customers.",
+    description: "Our web design services cater to businesses of all types, from restaurants and cafes to retail stores and professional service providers. We create visually appealing, user-friendly websites that engage your customers and drive business growth. Our team of experienced web developers and designers uses the latest web development technologies and design trends to ensure your website performs flawlessly, attracting and retaining more customers. We prioritize customer satisfaction and quality, working closely with you to tailor our web design and development solutions to your unique needs, ultimately enhancing your online visibility and engagement. Every website we build is meticulously tested for performance, usability, and responsiveness across all devices, ensuring an exceptional user experience that converts visitors into loyal customers.",
     icon: web,
   },
   {
-    title: "App Development",
-    description: "Our app development services at CodeAndCrust are designed to bring your mobile vision to life with cutting-edge technology and intuitive design, driving business success. We develop high-quality, user-friendly mobile applications for both iOS and Android platforms, providing a seamless user experience that keeps your audience engaged. Our commitment to customer satisfaction and quality means we rigorously test every app to be robust, secure, and bug-free, ensuring it supports your business goals. By personalizing each app to your specific requirements, we ensure it not only meets but exceeds your business objectives, helping you reach a wider audience, improve customer engagement, and increase revenue.",
+    title: "E-Commerce Solutions",
+    description: "Boost your online sales with our customized e-commerce solutions. We build and manage online stores that provide a seamless shopping experience for your customers, helping you increase conversions and grow your business. Our team creates visually appealing, user-friendly e-commerce websites tailored to your specific needs, ensuring a smooth and enjoyable shopping journey. From product listings and payment gateways to inventory management and order fulfillment, we handle every aspect of your online store. Our solutions include secure payment processing, mobile optimization, and advanced analytics to track and improve performance. By partnering with us, you gain a dedicated team committed to your success, providing personalized support, timely updates, and strategic advice to help you adapt to market changes and achieve sustainable growth.",
     icon: mobile,
   },
   {
     title: "Website and App Maintenance",
-    description: "At CodeAndCrust, our commitment to your success extends beyond the initial launch with our comprehensive website and app maintenance services. We ensure your digital assets remain up-to-date, secure, and performing at their best, helping you maintain a competitive edge. Our proactive approach to maintenance includes regular updates, security checks, and performance optimizations, ensuring a seamless experience for your users and continued business growth. By fostering strong, ongoing relationships with our clients, we provide personalized support and timely solutions, helping you adapt to changing needs, improve customer satisfaction, and achieve long-term success.",
+    description: "Ensure your website runs smoothly and efficiently with our comprehensive website management services. We offer regular updates, security monitoring, and performance optimization to keep your digital assets up-to-date, secure, and performing at their best. Our proactive approach includes security checks, regular updates, and performance enhancements, ensuring a seamless user experience and continued business growth. By fostering strong, ongoing relationships with our clients, we provide personalized support and timely solutions, helping you adapt to changing needs. Our services improve customer satisfaction and help you maintain a competitive edge. Partner with us to achieve long-term success and sustain your online presence.",
     icon: backend,
   },  
 ];
@@ -289,25 +289,23 @@ const pricing = [
     id: "0",
     title: "Startup",
     description: "Suitable for potential super-startups and brand revamps for companies.",
-    price: "199",  
+    price: "299",  
     features: [
       "3 Page Website",
       "Custom Layout Design",
       "Contact/Query Form",
       "3 Banner Design",
       "5 Stock Images",
+      "Mobile Responsive",
       "Free Favicon Design",
       "Unlimited Revisions",
       "Website Initial Concept in 48 Hours",
       "Complete W3C Certified HTML",
-      "Complete Desgin and Development",
-      "100% Ownership Rights",
-      "100% Satisfaction Guarantee",
-      "100% Money Back Gaurantee",
+      "Complete Desgin and Development",            
       "Value Added Services",
-      "Serach Engine Optimization",
+      "Search Engine Optimization",
       "CMS will be Additional *",
-      "Mobile Responsive will be Additional *",
+      
     ],
   },
   {
@@ -317,27 +315,23 @@ const pricing = [
     price: "499",    
     features: [
       "Up To 10 Unique Pages Website",
-      "CMS/Admon Panel Intrgration",
+      "CMS/Admin Panel Intrgration",
       "5+ Stock Photos & Banner Designs",
       "FREE Social Media Integration",
-      "FREE Favicon Designs",
-      "FREE Google Friendly Sitemap",
+      "FREE Favicon Designs",      
       "Unlimited Revisions",
-      "Cross Brower Compatible",
+      "Cross Browser Compatible",
+      "Mobile Responsive",
       "Complete W3C Certified HTML",
-      "Website Initial Concept in 48 Hours",
-      "Complete Desgin and Development",
+      "Website Initial Concept in 72 Hours",
+      "Complete Design and Development",
       "Custom, Interactive & Dynamic Web Design",
-      "Industry Specified Team of Expert Designers And Developers",
-      "Complete Source Files",
-      "Dedicated Project Manager",
-      "100% Ownership Rights",
-      "100% Satisfaction Guarantee",
-      "100% Money Back Gaurantee",
+      "Industry Specified Team of Expert Designers And Developers",      
+      "Dedicated Project Manager",             
       "Value Added Services",
       "Serach Engine Optimization",
       "CMS will be Additional *",
-      "Mobile Responsive will be Additional *",
+      
     ],
   },
   {
@@ -358,19 +352,16 @@ const pricing = [
       "Online Signup Area (For Newsletters,Offers Etc.)",
       "Search Bar",
       "Live Feeds of Social Networks Integration (Optional)",
-      "Google Friendly Sitemap",
+      "Mobile Responsive",      
       "Search Engine Submission",
       "Cross Browser Compatible",
       "Complete W3C Certified HTML",
       "Industry Specified Team Of Expert Designers And Developers",
       "Complete Deployment",
       "Complete Source Files",
-      "Dedicated Project Manager",
-      "100% Ownership Rights",
-      "100% Satisfaction Guarantee",
-      "100% Money Back Gaurantee",
+      "Dedicated Project Manager",           
       "CMS will be Additional *",
-      "Mobile Responsive will be Additional *",
+      
     ],
   },
 ];
@@ -380,7 +371,7 @@ const about = [
     name: "Sarwaat Tahsin Hriddo",
     title: "Co-Founder & Chief Executive Officer (CEO)",
     description:
-      "I am currently pursuing a BSC in Computer Security (Specialized Honors) at York University, Toronto, Ontario. With a background that includes founding a retail startup and being the youngest intern at Rangs Ltd in Dhaka, Bangladesh, I bring a diverse skill set in web and app development to CodeAndCrust. My core values of authenticity, work ethic, commitment to growth, and passion drive me to deliver exceptional digital solutions. I take pride in my work and love what I do, ensuring every project reflects my dedication to excellence. Outside of work, I enjoy playing 8-ball pool, table tennis, and exploring new lookout spots in Ontario, always seeking new perspectives and inspiration.",
+      "I am currently pursuing a BSC in Computer Security (Specialized Honors) at York University, Toronto, Ontario. With a background that includes founding a retail startup and being the youngest intern at Rangs Ltd in Dhaka, Bangladesh, I bring a diverse skill set in web and app development to Code & Crust. My core values of authenticity, work ethic, commitment to growth, and passion drive me to deliver exceptional digital solutions. I take pride in my work and love what I do, ensuring every project reflects my dedication to excellence. Outside of work, I enjoy playing 8-ball pool, table tennis, and exploring new lookout spots in Ontario, always seeking new perspectives and inspiration.",
     
     image: sarwaat,
     imgBg: "#E6DEDD",
@@ -390,7 +381,7 @@ const about = [
     name: "Monabbir Ahmed Bhuiyan",
     title: "Co-Founder & Chief Technology Officer (CTO)",
     description:
-      "I am currently pursuing a B.Eng in Software Engineering at York University in Toronto, Ontario. With experience as a junior developer at a startup called GO Learning in Bangladesh, I bring a diverse skill set in web and app development to Code & Crust. Additionally, I hold a black belt 2nd dan in Kyokushin Karate and founded the Kyokushin Karate @ York University Club. As the Co-Founder & Chief Technology Officer (CTO) of Code & Crust, my core values of authenticity, work ethic, commitment to growth, and passion drive me to deliver exceptional digital solutions. I take pride in my work and love what I do, ensuring every project reflects my dedication to excellence. Outside of work, I enjoy playing video games, watching anime, and creating my own video games, always seeking new perspectives and inspiration.",  
+      `I am currently pursuing a Bachelor of Engineering in Software Engineering at York University in Toronto, Ontario. With my experience as a junior developer at the startup GO Learning in Bangladesh, I bring a comprehensive skill set in web and app development to Code & Crust. As the Co-Founder and Chief Technology Officer (CTO) of Code & Crust, I am driven by authenticity, a steadfast dedication to quality, and a passion for creativity and innovation. I take immense pride in ensuring that every project embodies my commitment to excellence. I believe in being diligent, imaginative, and forward-thinking, always seeking opportunities to enhance and expand my expertise. Beyond my professional life, I enjoy playing video games, watching anime, and developing my own games. These hobbies not only provide relaxation but also inspire fresh perspectives and ideas, fueling my passion for creating outstanding digital solutions.`,  
     image: monabbir,
     imgBg: "#E6DEDD",
     
@@ -400,9 +391,9 @@ const about = [
 
 const questions = [
   {
-    question: "Why work with CodeAndCrust?",
+    question: "Why work with Code & Crust?",
     answer:
-      "At CodeAndCrust, we pride ourselves on delivering top-quality, innovative services tailored to meet the unique needs of each client. We offer high-end solutions at reasonable prices, ensuring that your business not only meets but exceeds its digital goals. Our commitment to personalization and client success sets us apart from the competition.",
+      "At Code & Crust, we pride ourselves on delivering top-quality, innovative services tailored to meet the unique needs of each client. We offer high-end solutions at reasonable prices, ensuring that your business not only meets but exceeds its digital goals. Our commitment to personalization and client success sets us apart from the competition.",
   },
   {
     question:
@@ -438,7 +429,7 @@ const questions = [
       "Our team operates online, allowing us to serve clients globally. This flexibility ensures we can provide timely and effective solutions, no matter where you are.",
   },
   {
-    question: "How do I get started with CodeAndCrust?",
+    question: "How do I get started with Code & Crust?",
     answer:
       "Getting started is easy. Contact us through our website or call us directly. We will discuss your project needs and guide you through the next steps, ensuring a smooth and personalized onboarding process.",
   },
